@@ -4,6 +4,9 @@ This Chat Service is built with demonstrate the practicality of using NestJs to 
 
 ## Setup.
 
+Assuming you have cloned this repo to your machine, just install all necessary dependencies; this is a nodejs app;Navigate to the cloned directory and run
+```npm install```
+
 Since this service uses a database to persist the messages sent across its lifecycle. You will need to have a supabase account with that gives you access to a postgres DB instance to work with. Grab the database connection details during the setup or from the Supabase settings panel and fill to a `.env` file, an example `.env` file is included to make things easy.
 
 Start your server in dev mode 
